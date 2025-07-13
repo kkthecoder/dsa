@@ -109,3 +109,33 @@ Given an array of integers nums, return the length of the longest consecutive se
 Example:
 Input: nums = [2,20,4,10,3,4,5]
 Output: 4
+
+### Problem 10 - Valid Palindrome
+
+Given a string s, return true if it is a palindrome, otherwise return false.
+A palindrome is a string that reads the same forward and backward. It is also case-insensitive and ignores all non-alphanumeric characters.
+
+Example:
+Input: s = "Was it a car or a cat I saw?"
+Output: true
+
+### Problem 11 - Two Sum II Input Array Is Sorted
+
+Given an array of integers numbers that is sorted in non-decreasing order.
+
+Return the indices (1-indexed) of two numbers, [index1, index2], such that they add up to a given target number target and index1 < index2. Note that index1 and index2 cannot be equal, therefore you may not use the same element twice.
+
+There will always be exactly one valid solution.
+
+Example:
+Input: numbers = [1,2,3,4], target = 3
+Output: [1,2]
+
+### Problem 12 - Three sum
+
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all distinct.
+The output should not contain any duplicate triplets. You may return the output and the triplets in any order.
+
+Example:
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
