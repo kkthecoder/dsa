@@ -63,3 +63,49 @@ You may return the output in any order.
 Example:
 Input: nums = [1,2,2,3,3,3], k = 2
 Output: [2,3]
+
+### Problem 6 - Encode and Decode Strings
+
+Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings. Please implement encode and decode.
+
+Example 1:
+Input: ["neet","code","love","you"]
+Output:["neet","code","love","you"]
+
+### Problem 7 - Product of Array Except Self - Explanation
+
+Given an integer array nums, return an array output where output[i] is the product of all the elements of nums except nums[i].
+
+Example:
+Input: nums = [1,2,4,6]
+Output: [48,24,12,8]
+
+### Problem 8 - Valid Sudoku
+
+You are given a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are followed:
+
+- Each row must contain the digits 1-9 without duplicates.
+- Each column must contain the digits 1-9 without duplicates.
+- Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without duplicates.
+- Return true if the Sudoku board is valid, otherwise return false
+
+Input: board =
+[["1","2",".",".","3",".",".",".","."],
+ ["4",".",".","5",".",".",".",".","."],
+ [".","9","8",".",".",".",".",".","3"],
+ ["5",".",".",".","6",".",".",".","4"],
+ [".",".",".","8",".","3",".",".","5"],
+ ["7",".",".",".","2",".",".",".","6"],
+ [".",".",".",".",".",".","2",".","."],
+ [".",".",".","4","1","9",".",".","8"],
+ [".",".",".",".","8",".",".","7","9"]]
+
+Output: true
+
+### Problem 9 - Longest consecutive sequence
+
+Given an array of integers nums, return the length of the longest consecutive sequence of elements that can be formed.
+
+Example:
+Input: nums = [2,20,4,10,3,4,5]
+Output: 4
