@@ -139,3 +139,46 @@ The output should not contain any duplicate triplets. You may return the output 
 Example:
 Input: nums = [-1,0,1,2,-1,-4]
 Output: [[-1,-1,2],[-1,0,1]]
+
+### Problem 13 - Container With Most Water
+
+You are given an integer array heights where heights[i] represents the height of the i(th) bar.
+You may choose any two bars to form a container. Return the maximum amount of water a container can store.
+
+Example:
+Input: height = [1,7,2,5,4,7,3,6]
+Output: 36
+
+### Problem 14 - Trapping Rain Water
+
+You are given an array of non-negative integers height which represent an elevation map. Each value height[i] represents the height of a bar, which has a width of 1.
+Return the maximum area of water that can be trapped between the bars.
+
+Example:
+Input: height = [0,2,0,3,1,0,1,3,2,1]
+Output: 9
+
+### Problem ? - Best Time to Buy and Sell Stock
+
+You are given an integer array prices where prices[i] is the price of NeetCoin on the ith day.
+You may choose a single day to buy one NeetCoin and choose a different day in the future to sell it.
+Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be 0.
+
+Example:
+Input: prices = [10,1,5,6,7,1]
+Output: 6
+
+### Problem 15 - Valid Parentheses
+
+You are given a string s consisting of the following characters: '(', ')', '{', '}', '[' and ']'.
+
+The input string s is valid if and only if:
+
+Every open bracket is closed by the same type of close bracket.
+Open brackets are closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+Return true if s is a valid string, and false otherwise.
+
+Example:
+Input: s = "([{}])"
+Output: true
